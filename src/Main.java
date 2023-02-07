@@ -74,20 +74,52 @@ public class Main {
         // (d)
 
 
-//        int rows = 5;
-//
-//        for (int i = 1; i <= rows; i++) {
-//            int j = 5 - i;
-//                System.out.print(" " + j);
-//
-//            for(int x = 1; x<=i; x++) {
-//                System.out.print(x+" ");
-//            }
-//            System.out.println();
-//        }
+        int num4 = 5;
+        for (int e = 0; e < num4; e++) {
+            
+            for (int w = 0; w < num4 - e - 1; w++) {
+                System.out.print(" ");
+            }
+            
+            for (int k = 0; k < 2 * e + 1; k++) {
+                System.out.print(k+1);
+            }
+            System.out.println();
+        }
 
+        //enter
 
+        System.out.println();
 
+        // enter
+
+        // (e)
+
+        int num5 = 5;
+        // upside pyramid
+        for (int r = 1; r <= num5; r++) {
+            // printing spaces
+            for (int j = num5; j > r; j--) {
+                System.out.print(" ");
+            }
+            // printing star
+            for (int t = 0; t < r * 2 - 1; t++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        // downside pyramid
+        for (int r = 1; r <= num5 - 1; r++) {
+            // printing spaces
+            for (int j = 0; j < r; j++) {
+                System.out.print(" ");
+            }
+            // printing star
+            for (int t = (num5 - r) * 2 - 1; t > 0; t--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
 
 
