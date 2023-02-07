@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) {
 
-
-
         // (a)
 
         int num = 5;
@@ -96,32 +94,32 @@ public class Main {
         // (e)
 
         int num5 = 5;
-        // upside pyramid
+
         for (int r = 1; r <= num5; r++) {
-            // printing spaces
+
             for (int j = num5; j > r; j--) {
                 System.out.print(" ");
             }
-            // printing star
+
             for (int t = 0; t < r * 2 - 1; t++) {
                 System.out.print("*");
             }
             System.out.println();
         }
-        // downside pyramid
+
         for (int r = 1; r <= num5 - 1; r++) {
             // printing spaces
             for (int j = 0; j < r; j++) {
                 System.out.print(" ");
             }
-            // printing star
+
             for (int t = (num5 - r) * 2 - 1; t > 0; t--) {
                 System.out.print("*");
             }
             System.out.println();
         }
 
-
+        //finish
 
 
 
