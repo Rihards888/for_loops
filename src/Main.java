@@ -12,11 +12,11 @@ public class Main {
             System.out.println();
         }
 
-        //enter
+        //gap
 
         System.out.println();
 
-        //enter
+        //gap
 
         // (b)
 
@@ -36,11 +36,11 @@ public class Main {
         }
 
 
-        //enter
+        //gap
 
         System.out.println();
 
-        //enter
+        //gap
 
         // (c)
 
@@ -63,11 +63,11 @@ public class Main {
         }
 
 
-        //enter
+        //gap
 
         System.out.println();
 
-       // enter
+       // gap
 
         // (d)
 
@@ -85,11 +85,11 @@ public class Main {
             System.out.println();
         }
 
-        //enter
+        //gap
 
         System.out.println();
 
-        // enter
+        // gap
 
         // (e)
 
